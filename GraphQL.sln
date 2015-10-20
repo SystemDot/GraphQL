@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Parser", "Parser\GraphQL.Parser.csproj", "{AA4CE7E8-7972-4724-A9FF-B19DDCF126AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Schema", "Schema\GraphQL.Schema.csproj", "{9EDE564D-23D9-4399-A24B-F11D99668C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Specifications", "Specifications\GraphQL.Specifications.csproj", "{5D4C37B7-315D-4255-9F6C-87B67F472DB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0225A33A-23B5-4956-B9F1-FA326C4F54FA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Runner", "Runner\GraphQL.Runner.csproj", "{538D8932-8381-4623-AE5E-4EBE09B630B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4CE7E8-7972-4724-A9FF-B19DDCF126AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4CE7E8-7972-4724-A9FF-B19DDCF126AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4CE7E8-7972-4724-A9FF-B19DDCF126AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4CE7E8-7972-4724-A9FF-B19DDCF126AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDE564D-23D9-4399-A24B-F11D99668C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDE564D-23D9-4399-A24B-F11D99668C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDE564D-23D9-4399-A24B-F11D99668C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDE564D-23D9-4399-A24B-F11D99668C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4C37B7-315D-4255-9F6C-87B67F472DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4C37B7-315D-4255-9F6C-87B67F472DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4C37B7-315D-4255-9F6C-87B67F472DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4C37B7-315D-4255-9F6C-87B67F472DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538D8932-8381-4623-AE5E-4EBE09B630B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538D8932-8381-4623-AE5E-4EBE09B630B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538D8932-8381-4623-AE5E-4EBE09B630B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538D8932-8381-4623-AE5E-4EBE09B630B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
